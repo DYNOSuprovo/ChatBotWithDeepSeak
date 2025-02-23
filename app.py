@@ -15,7 +15,7 @@ def chat():
     
     # Send request to DeepSeek-R1
     payload = {
-        "model": "deepseek-r1",
+        "model": "deepseek-r1-r1:8b",
         "prompt": user_input,
         "stream": False
     }
